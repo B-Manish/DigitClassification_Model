@@ -1,2 +1,2 @@
 # DigitClassification_Model
-Building a digit calssification from scratch
+Building a digit classification model from scratch
