@@ -6,7 +6,7 @@ This project implements a **fully connected feedforward neural network** from sc
 
 ## 📊 Dataset
 
-The [MNIST dataset](http://yann.lecun.com/exdb/mnist/) consists of 28x28 grayscale images of handwritten digits.
+The MNIST dataset consists of 28x28 grayscale images of handwritten digits.
 
 - **Training data**: 60,000 images
 - **Test data**: 10,000 images
