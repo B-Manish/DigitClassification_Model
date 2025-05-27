@@ -25,9 +25,9 @@ def display_number(index:int):
 
 
 input_size = 784      
-hidden_size1 = 128     
-hidden_size2 = 64     
-output_size = 10       
+hidden_size1 = 128   # number of nuerons in hidden layer 1 
+hidden_size2 = 64    # number of nuerons in hidden layer 2
+output_size = 10     # number of nuerons in the output layer(digits from 0-9) 
 
 learning_rate = 0.01
 
