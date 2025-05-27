@@ -145,7 +145,8 @@ def predict(x):
 train(n=60000,epochs=30)
 
 
-for i in range(1000):
+# Loops through first 100 images through test data
+for i in range(100):
     input = x_test[i].flatten().reshape(1, 784) / 255.0
     label = y_test[i]
     prediction = predict(input)
