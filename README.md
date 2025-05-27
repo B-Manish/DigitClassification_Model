@@ -62,7 +62,6 @@ The MNIST dataset consists of 28x28 grayscale images of handwritten digits.
 - The model outputs:
   - Probabilities for each digit (0–9).
   - Predicted digit class.
-- Accuracy is calculated based on correct predictions out of all test samples.
 
 ---
 
@@ -70,7 +69,6 @@ The MNIST dataset consists of 28x28 grayscale images of handwritten digits.
 
 - Runs only on CPU (no GPU acceleration).
 - No deep learning libraries (TensorFlow, PyTorch) are used.
-- Trains one sample at a time (no batching or optimizers like Adam).
 - Training on full dataset is slow compared to modern frameworks.
 
 ---
